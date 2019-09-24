@@ -16,7 +16,7 @@ var (
 	LineTooLong     = errors.New("LineTooLong")
 
 	ReadBufferInitSize = 1 << 16
-	MaxNumArg          = 20
+	MaxNumArg          = 1024
 	MaxBulkSize        = 1 << 16
 	MaxTelnetLine      = 1 << 10
 	spaceSlice         = []byte{' '}
